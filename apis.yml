@@ -1,0 +1,67 @@
+aid: pluton-biosciences
+url: https://raw.githubusercontent.com/api-evangelist/pluton-biosciences/refs/heads/main/apis.yml
+name: Pluton Biosciences
+kind: company
+description: >-
+  Pluton Biosciences is a microbial discovery company that uses a proprietary
+  Discovery Platform - high-throughput soil microbiome screening combined with
+  computational analysis - to find naturally occurring microbial consortia for
+  agriculture and carbon sequestration. Its lead product is a Biological
+  Nitrogen System: photosynthetic microbial consortia that operate at the soil
+  surface to fix atmospheric nitrogen and mobilize phosphorus. Pluton is a
+  research-and-product company, not an API company; it has no public developer
+  portal. Partnership and licensing inquiries are handled directly.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Agriculture
+  - AgTech
+  - Biotech
+  - Microbials
+  - Soil Carbon
+  - Discovery Platform
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: pluton-biosciences:discovery-platform
+    name: Pluton Discovery Platform
+    description: >-
+      Internal high-throughput microbial discovery platform that screens soil
+      microbiomes and uses computational analysis to identify naturally
+      occurring microbial consortia for agriculture and carbon sequestration.
+      Internal research platform; no external API exposed.
+    humanURL: https://www.plutonbio.com/
+    baseURL: https://www.plutonbio.com/
+    tags:
+      - Discovery
+      - Microbiome
+      - Research Platform
+    properties:
+      - type: Information
+        url: https://www.plutonbio.com/
+  - aid: pluton-biosciences:biological-nitrogen-system
+    name: Biological Nitrogen System
+    description: >-
+      Sun-powered, soil-surface biological nutrient delivery system in which
+      photosynthetic microbial consortia fix atmospheric nitrogen and mobilize
+      phosphorus. Field-validated and in active development; not commercially
+      released as of 2026.
+    humanURL: https://www.plutonbio.com/
+    baseURL: https://www.plutonbio.com/
+    tags:
+      - Microbials
+      - Nitrogen Fixation
+      - Product
+    properties:
+      - type: Information
+        url: https://www.plutonbio.com/
+common:
+  - type: Website
+    url: https://www.plutonbio.com/
+  - type: Contact
+    url: https://www.plutonbio.com/contact-us
+  - type: Email
+    url: mailto:contact@plutonbio.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
