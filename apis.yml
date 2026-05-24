@@ -62,6 +62,8 @@ common:
     url: https://www.plutonbio.com/contact-us
   - type: Email
     url: mailto:contact@plutonbio.com
+  - type: LLMsTxt
+    url: https://plutonbio.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
