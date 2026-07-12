@@ -56,6 +56,8 @@ apis:
       - type: Information
         url: https://www.plutonbio.com/
 common:
+  - type: DomainSecurity
+    url: security/pluton-biosciences-domain-security.yml
   - type: Website
     url: https://www.plutonbio.com/
   - type: Contact
