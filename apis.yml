@@ -1,5 +1,8 @@
 aid: pluton-biosciences
 url: https://raw.githubusercontent.com/api-evangelist/pluton-biosciences/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Pluton is a research-and-product company, not an API company; it has no public developer portal."
 name: Pluton Biosciences
 kind: company
 description: >-
