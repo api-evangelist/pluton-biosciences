@@ -11,6 +11,17 @@ description: >-
   surface to fix atmospheric nitrogen and mobilize phosphorus. Pluton is a
   research-and-product company, not an API company; it has no public developer
   portal. Partnership and licensing inquiries are handled directly.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
