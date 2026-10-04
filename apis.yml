@@ -41,6 +41,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pluton-bio
 tags:
   - Agriculture
   - AgTech
+  - Biotechnology
+  - Microbials
+  - Soil Carbon
+  - Discovery Platform
+tags_raw:
+  - Agriculture
+  - AgTech
   - Biotech
   - Microbials
   - Soil Carbon
@@ -57,7 +64,6 @@ apis:
       occurring microbial consortia for agriculture and carbon sequestration.
       Internal research platform; no external API exposed.
     humanURL: https://www.plutonbio.com/
-    baseURL: https://www.plutonbio.com/
     tags:
       - Discovery
       - Microbiome
@@ -73,7 +79,6 @@ apis:
       phosphorus. Field-validated and in active development; not commercially
       released as of 2026.
     humanURL: https://www.plutonbio.com/
-    baseURL: https://www.plutonbio.com/
     tags:
       - Microbials
       - Nitrogen Fixation
