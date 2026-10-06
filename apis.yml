@@ -53,7 +53,7 @@ tags_raw:
   - Soil Carbon
   - Discovery Platform
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: pluton-biosciences:discovery-platform
@@ -87,6 +87,10 @@ apis:
       - type: Information
         url: https://www.plutonbio.com/
 common:
+  - url: https://www.plutonbio.com/blog
+    type: Blog
+  - url: https://www.plutonbio.com/blog-feed.xml
+    type: BlogRSS
   - type: DomainSecurity
     url: security/pluton-biosciences-domain-security.yml
   - type: Website
